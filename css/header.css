@@ -1,0 +1,31 @@
+.header {
+  position: absolute;
+  padding-top: 57px;
+  width: 100%;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__menu {
+  display: flex;
+}
+.nav__item {
+  list-style: none;
+  margin-left: 42px;
+}
+.nav__link {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+.nav__link:hover {
+  color: var(--color-blue);
+}
+.nav__link {
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+}
