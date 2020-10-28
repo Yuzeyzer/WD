@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .container {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -80,4 +80,50 @@ body {
   line-height: 26px;
   text-align: center;
   color: var(--color-gray);
+}
+
+.projects {
+  padding: 100px 0;
+  background-color: var(--color-blue);
+}
+
+.projects__row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects__item {
+  display: flex;
+  color: white;
+}
+
+.projects__image {
+  margin-right: 20px;
+}
+
+.projects__number {
+  margin: 0 0 10px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.projects__name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+@media screen and (max-width:1024px) {
+  .col-2 {
+    width: 26%;
+  }
+  .projects__item {
+    margin-bottom: 40px;
+  }
 }
